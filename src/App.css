@@ -1,0 +1,122 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e8edf3;
+  margin: 0;
+  padding: 20px;
+}
+
+.app {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 78px;
+}
+
+.header h1 {
+  color: #2c3e50;
+  font-size: 38px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.form-container input {
+  width: 250px;
+  padding: 12px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.add-btn {
+  padding: 12px 20px;
+  background-color: #4f81bd;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background-color: #3d6ea8;
+}
+
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 20px;
+}
+
+.book-card {
+  background: white;
+  padding: 18px;
+  border-radius: 8px;
+  border: 1px solid #d6d6d6;
+}
+
+.book-card h2 {
+  font-size: 22px;
+  color: #333;
+}
+
+.author {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.stars {
+  font-size: 22px;
+  color: #f4b400;
+  margin-bottom: 10px;
+}
+
+.status span {
+  color: #2e8b57;
+  font-weight: bold;
+}
+
+.card-buttons {
+  margin-top: 15px;
+}
+
+.toggle-btn {
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 8px;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.book-logo {
+  font-size: 45px;
+}
+
+.header h1 {
+  font-size: 32px;
+  color: #2c3e50;
+}
